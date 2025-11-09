@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/background\ image.jpg);
+    height: 95vh;
+    position: relative;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 95vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    height: 62px;
+    margin: auto;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 10vw;
+    margin-right: 10vw; or use marigin:auto*/
+
+}
+
+nav img {
+    color: red;
+    position: relative;
+    z-index: 10;
+    width: 114px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    padding: 0 23px;
+}
+
+.hero>:first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+.hero>:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 8px;
+    background-color: #494747;
+    position: relative;
+    /* z-index: 10; */
+    /* bottom: 80px; */
+    bottom: 69px;
+}
+
+.btn {
+    color: white;
+    /* padding: 3px 8px 2px 5px; */
+    padding: 8px 9px 4px 10px;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn1 {
+    padding-top: 4px;
+}
+
+.btn2 {
+    background-color: red;
+    padding-left: 9px;
+    border-radius: 6px;
+    font-weight: bold;
+    padding-top: 4px;
+
+}
+
+.btn3 {
+    background-color: red;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 3px 24px;
+    font-weight: bold;
+}
+
+.main input {
+    font-size: 12px;
+    padding: 7px 101px 8px 14px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    border-radius: 4px;
+    color: white;
+
+
+}
+
+.hero-buttons {
+    display: flex;
+    padding: 12px 10px 8px 6px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.content>:nth-child(1) {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+
+}
+
+.content>:nth-child(2) {
+    font-size: 26px;
+    font-weight: 350;
+    padding-left: 10px;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 30vw;
+    height: 30vh;
+}
+
+.separation2 {
+    height: 8px;
+    background-color: #494747;
+    position: relative;
+    /* z-index: 10; */
+    /* bottom: 80px; */
+    bottom: 1px;
+}
+.content2{
+    padding-left: 60px;
+    display: flex;
+}
+
+/* .content2>:nth-child(1){
+    column-gap: 5px;
+} */
+
+.img2 video{
+    width: 30vw;
+    height: 23vh;
+
+}
+.faq{
+    background: black;
+    color: white;
+}
+.faq h2{
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+}
+.faq :hover{
+    background-color:grey;
+}
+.faqbox{
+    display: flex;
+    transition: all 1s ease-out;
+    background-color:#2d2d2d;
+    max-width: 70vw;
+    margin: 34px auto;
+    padding: 24px;
+    justify-content: space-between;
+    font-size: 25px;
+    cursor: pointer;
+    font-size: 24px;
+}
